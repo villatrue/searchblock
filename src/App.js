@@ -66,7 +66,7 @@ class SearchBlock extends Component {
     return (
       <div>
         <Script
-          url="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiEdDr4sUyrgLc3B1vm-qV7iFfGVvQf_Y&libraries=places"
+          url= {`https://maps.googleapis.com/maps/api/js?key=${key}&libraries=places`}
           onLoad={this.handleScriptLoad}
         />
         <MuiThemeProvider>
